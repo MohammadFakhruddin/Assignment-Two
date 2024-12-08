@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
+    <title>Tailwind  Responsive Assignment</title>
+</head>
+<body class="bg-[#1C1C21] mx-[20px]">
+
+    <!-- nav start -->
+    <div class="container mx-auto h-[100px] mt-[5px] md:mt-[30px] lg:mt-[50px]">
+        <nav class="flex w-full items-center justify-between">
+            <h1 class=" logo text-[25px] font-semibold leading-[43px] text-[#ffffff]">LOGO</h1>
+
+
+         <div class="hamburger_menu md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#ffffff]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+
+            </div>
+
+
+            <div class="menu_button hidden md:flex lg:felx  gap-[35px] items-center">
+                <ul class="text-[14px] text-[#FFFFFF] font-normal leading-[21px] flex gap-[35px]">
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Testimonials</li>
+                </ul>
+
+                <button class="text-[#000000] bg-[#E6AA32] rounded-[53px] font-medium text-[16px] leading-[21px] px-[20px] py-[10px]">Downlaod CV</button>
+
+            </div>
+        </nav>
+        
+    </div>
+    <!-- nav end -->
+    
+    
+    <!-- hero start -->
+
+    <section class="hero_area container mx-auto mt-[5px] md:mt-[30px] lg:mt-[50px] block md:flex lg:flex md:justify-between lg:justify-between md:gap-[50px] lg:gap-[50px]">
+
+        <div class="hero_area_left">
+           <h5 class="font-normal text-[18px] text-[#797C86] leading-[27px]">Web Developer</h5>
+            <h1 class="font-bold text-[55px] sm:text-[40px] text-[#ffffff] leading-[70px]">HI! This is  <br><span class="text-[#E6AA32]">Zahid Hossain</span></h1>
+
+            <p class="font-normal text-[15px] sm:text-[10px] text-[rgb(121,124,134)] leading-[25px]">As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My <br>expertise includes responsive design, UI/UX principles, and <br>collaborating with clients to bring their visions to life.</p>
+
+            <div class="hero_buttons mt-[30px]">
+                <button class="text-[#000000] bg-[#E6AA32] rounded-[53px] font-medium text-[16px] leading-[21px] px-[20px] py-[10px]">Let's connect</button>
+                <button class="text-[#E6E6E6] font-medium text-[16px] leading-[21px] px-[20px] py-[10px]">View portfolio</button>
+
+            </div>
+        </div>
+
+        <div class="hero_image">
+            <img class="h-[250px] md:h-[300px] lg:h-[300px] w-[250px] md:w-[460px] lg:w-[460px]" src="images/hero-image.png" alt="">
+        </div>
+
+    </section>
+
+
+    <section class="my_specialities container mx-auto mt-[5px] md:mt-[30px] lg:mt-[50px] text-center ">
+
+        <div class="specialities_text mx-[100px]">
+            <h4 class="uppercase text-[#797C86] text-[18px] sm:text-[15px] font-semibold leading-[25px]">Specialties</h4>
+        <h1 class="uppercase text-[#FFFFFF] text-[40px] sm:text-[20px] font-bold leading-[60px]">My specialities</h1>
+        <p class="font-normal text-[15px] text-[rgb(121,124,134)] leading-[25px]">As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My expertise includes responsive design.</p>
+        </div>
+
+        <div class="skill_area grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-3 mt-[20px]">
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <img class="h-[30px] mr-auto ml-auto block " src="images/fi_13580920.png" alt="">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="my_recent_works container mx-auto mt-[5px] md:mt-[30px] lg:mt-[50px] text-center ">
+        <div class="recent_works text mx-[100px]">
+            <h4 class="uppercase text-[#797C86] text-[18px] font-semibold leading-[25px]">recent works</h4>
+        <h1 class="uppercase text-[#FFFFFF] text-[40px] font-bold leading-[60px]">My Recent works</h1>
+        <p class="font-normal text-[15px] text-[rgb(121,124,134)] leading-[25px]">As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My expertise includes responsive design.</p>
+        </div>
+
+<div class="my_recent_work_container justify-center flex gap-3 mt-[20px]">
+
+    <div class="h-[250px] w-[350px] bg-[#303031] "></div>
+    <div class="h-[250px] w-[350px] bg-[#303031] "></div>
+    <div class="h-[250px] w-[350px] bg-[#303020] "></div>
+  
+  
+
+</div>
+ </section>
+
+
+<section class="other_services  container mx-auto mt-[5px] md:mt-[30px] lg:mt-[50px] text-center">
+<div class="other_works text mx-[100px]">
+            <h4 class="uppercase text-[#797C86] text-[18px] font-semibold leading-[25px]">Services</h4>
+        <h1 class="uppercase text-[#FFFFFF] text-[40px] font-bold leading-[60px]">My other services</h1>
+        <p class="font-normal text-[15px] text-[rgb(121,124,134)] leading-[25px]">As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My expertise includes responsive design.</p>
+        </div>
+
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-3 mt-[20px]">
+
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+            <div class="bg-[#0E0E10] text-center items-center p-[20px] h-[293px] sm:h-[170px] md:h-[170px] lg:h-[280px]">
+
+                <h3 class="font-medium leading-[20px] text-[#ffffff]">Front-End Development</h3>
+                <p class="font-normal text-[10px] mt-[3px] text-[rgb(121,124,134)] leading-[15px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+</div>
+ </div>
+</section>
+
+<section class="faq_section container mx-auto mt-[5px] md:mt-[30px] lg:mt-[50px]">
+
+<div class="faq_questions mx-auto sm:ml-5px w-full">
+            <h4 class="uppercase text-[#797C86] text-[18px] text-start font-semibold leading-[25px]">FAQ’s</h4>
+        <h1 class="uppercase text-[#FFFFFF] text-[40px]
+        text-start font-bold leading-[60px]">Frequently Asked Questions</h1></div>
+
+        <div class="mt-[20px] border-t-[1px] border-[#797c864a] justify-between items-center flex">
+            <p class="py-[15px]  text-[#AFB0B6] text-[15px]">What tools and technologies do you use for web development? <br><span class="py-[2px]  text-[#afb0b68d] text-[10px]">I specialize in web development, creating websites that deliver unique user experiences. </span></p>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 text-[#ffffff]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+              </svg>
+              
+              
+        </div>
+        <div class="mt-[20px] border-t-[1px] border-[#797c864a] justify-between items-center flex">
+            <p class="py-[15px]  text-[#AFB0B6] text-[15px]">What tools and technologies do you use for web development?</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 text-[#FFFFFF]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+        </div>
+        <div class="mt-[20px] border-t-[1px] border-[#797c864a] justify-between items-center flex">
+            <p class="py-[15px]  text-[#AFB0B6] text-[15px]">What tools and technologies do you use for web development?</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 text-[#FFFFFF]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+        </div>
+        <div class="mt-[20px] border-t-[1px] border-[#797c864a] justify-between items-center flex">
+            <p class="py-[15px]  text-[#AFB0B6] text-[15px]">What tools and technologies do you use for web development?</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 text-[#FFFFFF]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+        </div>
+        <div class="mt-[20px] border-t-[1px] border-[#797c864a] justify-between items-center flex">
+            <p class="py-[15px]  text-[#AFB0B6] text-[15px]">What tools and technologies do you use for web development?</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3 text-[#FFFFFF]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+        </div>
+
+
+</section>
+
+
+
+
+
+
+<footer class="container mx-auto mt-[120px] md:mt-[30px] lg:mt-[120px] ">
+
+    <div class="important_links justify-around text-center grid sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap-x-[30px] mx-auto">
+        <ul class="uppercase font-medium text-[#F2F2F3] text-[10px] leading-[24px] mb-[18px] ">
+            <li class=" text-[#797C86] mb-[5px]">Solutions</li>
+            <li>Glintopia</li>
+            <li>Fluxway</li>
+            <li>Fable’s</li>
+            <li>PowerCore</li>
+        </ul>
+       
+        <ul class="uppercase font-medium text-[#F2F2F3] text-[10px] leading-[24px] mb-[18px] ">
+            <li class=" text-[#797C86] mb-[5px]">Solutions</li>
+            <li>Glintopia</li>
+            <li>Fluxway</li>
+            <li>Fable’s</li>
+            <li>PowerCore</li>
+        </ul>
+        <ul class="uppercase font-medium text-[#F2F2F3] text-[10px] leading-[24px] mb-[18px] ">
+            <li class=" text-[#797C86] mb-[5px]">Solutions</li>
+            <li>Glintopia</li>
+            <li>Fluxway</li>
+            <li>Fable’s</li>
+            <li>PowerCore</li>
+        </ul>
+        <ul class="uppercase font-medium text-[#F2F2F3] text-[10px] leading-[24px] mb-[18px] ">
+            <li class=" text-[#797C86] mb-[5px]">Solutions</li>
+            <li>Glintopia</li>
+            <li>Fluxway</li>
+            <li>Fable’s</li>
+            <li>PowerCore</li>
+        </ul>
+        <ul class="uppercase font-medium text-[#F2F2F3] text-[10px] leading-[24px] mb-[18px] ">
+            <li class=" text-[#797C86] mb-[5px]">Solutions</li>
+            <li>Glintopia</li>
+            <li>Fluxway</li>
+            <li>Fable’s</li>
+            <li>PowerCore</li>
+        </ul>
+       
+    
+    
+    </div>
+    
+    <div class="mt-[10px] uppercase flex justify-between border-t-[1px] border-dashed border-[#797C86] py-[10px]">
+        <div class=" text-[#797C86] text-[12px] font-normal leading-[27px] #797C86">
+    <p class="ml-[30px]">Terms & Conditions <span>&#124;</span> Privacy Policy</p></div>
+        <div class=" text-[#797C86] text-[12px] font-normal leading-[27px] #797C86">
+    <p class="mr-[30px]">© 2024 All rights reserved.</p></div>
+    
+
+
+</footer>
+
+
+</body>
+</html>
